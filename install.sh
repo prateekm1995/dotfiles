@@ -7,6 +7,8 @@ DOTFILES="$HOME/dotfiles"
 echo "Creating symlinks..."
 
 ln -sfn "$DOTFILES/tmux/tmux.conf" "$HOME/.tmux.conf"
+ln -sfn "$DOTFILES/zsh/.sh_alias" "$HOME/.sh_alias"
+ln -sfn "$DOTFILES/zsh/.sh_exports" "$HOME/.sh_exports"
 
 echo "Installing TPM..."
 
