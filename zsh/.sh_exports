@@ -4,7 +4,7 @@
 export PATH="$HOME/.local/bin:$PATH"
 
 # Set default editor
-export EDITOR='vim'
+export EDITOR='nvim'
 
 # Locale settings
 export LANG='en_US.UTF-8'
